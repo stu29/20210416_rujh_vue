@@ -247,6 +247,22 @@ export default [
       }
     ]
   },
+  {
+    path: '/personnel',
+    name: '人员管理',
+    component: Main,
+    children: [
+      {
+        path: 'personnel',
+        name: '人员管理',
+        meta: {
+          icon: 'md-people',
+          title: '人员管理'
+        },
+        component: () => import('@/myView/personnel/personnel.vue')
+      }
+    ]
+  },
   //   path: '',
   //   name: 'doc',
   //   meta: {

@@ -131,7 +131,7 @@ export const teacherTableData = (pageSize, currentPage,startTime,endTime,searchT
 }
 //新增教师
 export const addTeacher = (formData,targetKeys) => {
-  console.log(JSON.stringify(targetKeys))
+//   console.log(JSON.stringify(targetKeys))
   const data = qs.stringify({
     name:formData.name,
     phone:formData.phone,
